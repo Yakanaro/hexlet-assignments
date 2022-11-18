@@ -2,6 +2,5 @@
 
 source 'https://rubygems.org'
 
-gem 'facets'
 gem 'forwardable'
 gem 'minitest-power_assert'

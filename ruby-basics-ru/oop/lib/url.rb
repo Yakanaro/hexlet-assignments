@@ -1,7 +1,6 @@
 # frozen_string_literal: true
 
 require 'uri'
-require 'facets'
 
 # BEGIN
 class Url
@@ -33,11 +32,23 @@ class Url
       {}
     else
       ary = Hash[URI.decode_www_form(uri_query)]
-      result = ary.symbolize_keys
+      result = ary.transform_keys(&:to_sym)
     end
     result
   end
 
+  # def query_params
+  # uri = URI(@url)
+  # uri_query = uri.query
+  # result = {}
+  # if uri_query.nil?
+  # {}
+  # else
+  # ary = Hash[URI.decode_www_form(uri_query)]
+  # result = ary.symbolize_keys
+  # end
+  # result
+  # end
   def query_param(keys, value = nil)
     new_url = Url.new(@url)
     obj = new_url.query_params
