@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
   spec.summary = "metadata ip."
   spec.description = "gem communication information on IP "
   spec.homepage = "https://github.com/LitvinDaria/ruby_gem"
-  spec.required_ruby_version = ">= 3.0.3"
+  spec.required_ruby_version = ">= 3.0.0"
 
   spec.metadata["allowed_push_host"] = "https://github.com/LitvinDaria/ruby_gem'"
 
