@@ -20,7 +20,7 @@ class IpgeobaseTest < TestCase
     meta = Ipgeobase.lookup @ip
     assert { 39.03.to_d == meta.lat.to_d }
     assert { -77.5.to_d == meta.lon.to_d }
-    assert { "United States" == meta.country }
-    assert { "Ashburn" == meta.city }
+    assert { meta.country == "United States" }
+    assert { meta.city == "Ashburn" }
   end
 end
