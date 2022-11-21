@@ -11,7 +11,7 @@ class AdminPolicy
     request = Rack::Request.new(env)
     return [403, {}, []] if request.path.start_with? '/admin'
 
-    [status, header, body]
+    [status, headers, body]
     # END
   end
 end
