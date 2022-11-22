@@ -1,0 +1,14 @@
+Style/Documentation:
+  Enabled: false
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Lint/UselessAssignment:
+  Enabled: false
+
+Lint/Debugger:
+  Enabled: false
+
+Lint/AssignmentInCondition:
+  Enabled: false
