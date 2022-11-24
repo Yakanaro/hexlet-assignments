@@ -1,0 +1,14 @@
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Style/Documentation:
+  Enabled: false
+Bundler/DuplicatedGem:
+  Enabled: false
+Lint/UselessAssignment:
+  Enabled: false
+Metrics/BlockLength:
+  Enabled: false
+Lint/AssignmentInCondition:
+  Enabled: false
+Layout/EmptyLines:
+  Enabled: false
