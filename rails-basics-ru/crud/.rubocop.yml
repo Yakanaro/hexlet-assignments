@@ -10,3 +10,5 @@ Metrics/BlockLength:
   Enabled: false
 Lint/AssignmentInCondition:
   Enabled: false
+Layout/EmptyLines:
+  Enabled: false
