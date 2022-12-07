@@ -10,3 +10,5 @@ Style/FrozenStringLiteralComment:
   Enabled: false
 Metrics/BlockLength:
   Max: 100
+Layout/EmptyComment:
+  Enabled: false
