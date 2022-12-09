@@ -19,6 +19,7 @@ en:
       success: Post was updated.
     destroy:
       success: Post was destroyed.
+
     # END
 
     comments:

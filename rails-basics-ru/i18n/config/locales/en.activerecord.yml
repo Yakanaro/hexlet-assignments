@@ -1,10 +1,7 @@
 en:
   activerecord:
     models:
-      # BEGIN
       post: Post
-      post/comment: Comment
-      # END
       post/comment: Comment
     attributes:
       # BEGIN
@@ -21,7 +18,5 @@ en:
       models:
         post:
           attributes:
-            # BEGIN
             title:
               blank: cannot be empty
-            # END
