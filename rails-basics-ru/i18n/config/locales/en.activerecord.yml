@@ -11,6 +11,8 @@ en:
       post:
         body: Body
         title: Title
+      post/comment:
+        body: Body
       # END
       post/comment:
         body: Body
