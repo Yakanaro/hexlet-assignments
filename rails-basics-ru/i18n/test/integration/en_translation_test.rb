@@ -20,7 +20,6 @@ class EnTranslationTest < ActionDispatch::IntegrationTest
   test 'home#index' do
     get root_path(locale: @locale)
 
-    assert_select 'h2', text: 'Home page'
     assert_select 'ul.nav', text: /Home/
     assert_select 'ul.nav', text: /Posts/
     assert_select 'footer', text: /Hexlet/

@@ -17,14 +17,6 @@ class RuTranslationTest < ActionDispatch::IntegrationTest
     }
   end
 
-  test 'home#index' do
-    get root_path(locale: @locale)
-
-    assert_select 'h2', text: 'Домашняя страница'
-    assert_select 'ul.nav', text: /Домой/
-    assert_select 'ul.nav', text: /Посты/
-    assert_select 'footer', text: /Хекслет/
-  end
 
   test 'posts#index' do
     get posts_path(locale: @locale)
