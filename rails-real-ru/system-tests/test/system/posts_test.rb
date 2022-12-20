@@ -10,7 +10,7 @@ class PostsTest < ApplicationSystemTestCase
   end
 
   test 'visiting to index' do
-    visit post_path
+    visit posts_path
 
     page.assert_selector('h1', text: 'Posts')
     page.assert_selector('a',  text: 'New Post')
