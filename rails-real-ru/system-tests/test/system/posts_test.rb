@@ -3,7 +3,7 @@
 require 'application_system_test_case'
 
 # BEGIN
-class PostsTest < ApplicationSystemCase
+class PostsTest < ApplicationSystemTestCase
   setup do
     @title = Faker::Lorem.sentence
     @body = Faker::Lorem.paragraph_by_chars(number: 51, supplemental: false)
