@@ -1,0 +1,28 @@
+Style/Documentation:
+  Enabled: false
+Lint/AssignmentInCondition:
+  Enabled: false
+Layout/LineLength:
+  Enabled: false
+Lint/UselessAssignment:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
+Metrics/BlockLength:
+  Max: 100
+Layout/EmptyComment:
+  Enabled: false
+Style/ClassAndModuleChildren:
+  Enabled: false
+Layout/EmptyLines:
+  Enabled: false
+Layout/SpaceInsideHashLiteralBraces:
+  Enabled: false
+Layout/CommentIndentation:
+  Enabled: false
+Layout/EmptyLineBetweenDefs:
+  Enabled: false
+Lint/Debugger:
+  Enabled: false
+Lint/UselessMethodDefinition:
+  Enabled: false
